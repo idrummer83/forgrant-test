@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic');
+    </style>
+    <!--<link href="../zzz/css/bootstrap-grid.min.css" rel="stylesheet">-->
+    <!--<link href="../zzz/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link href="../zzz/qwe.css" rel="stylesheet">-->
+    <link href="../public/styles/custom.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav cl-12 col-md-5 justify-content-between m-auto p-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Личная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Опыт</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">О себе</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="post-header-panel position-relative">
+        <div class="post-header-bg position-absolute"></div>
+        <h1 class="header position-absolute m-auto text-center font-weight-light">Анкета</h1>
+    </div>
+    <div class="personal container">
+        <i class="icon personal-icon ml-auto mr-auto mb-4"></i>
+        <h2 class="header font-weight-light text-center">Личная информация</h2>
+        <form>
+            <div class="form-group col-12 col-md-6 ml-auto mr-auto mb-4">
+                <input type="email" class="form-control" id="fullname" aria-describedby="emailHelp" placeholder="ФИО">
+            </div>
+
+            <div class="form-group col-12 col-md-6 ml-auto mr-auto mb-4">
+                <a class="year btn d-flex justify-content-center align-items-center m-auto border" data-toggle="collapse" href="#year" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <span class="m-auto">Год рождения</span>
+                    <i class="arrow-bottom ml-auto"></i>
+                </a>
+                <div class="collapse scrollbar m-auto border rounded" id="year">
+                    <div class="  force-overflow" >
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                        <a class="dropdown-item" href="#">1234</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group col-12 col-md-6 ml-auto mr-auto mb-4">
+                <input type="text" class="form-control" id="place" placeholder="Место проживания">
+            </div>
+            <div class="form-group col-12 col-md-6 ml-auto mr-auto mb-4">
+                <input type="text" class="form-control" id="skype" aria-describedby="emailHelp" placeholder="Skype">
+            </div>
+            <div class="form-group col-12 col-md-6 ml-auto mr-auto mb-4">
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+        </form>
+    </div>
+    <div class="skill container">
+        <i class="icon skill-icon ml-auto mr-auto mb-4"></i>
+        <h2 class="header font-weight-light text-center">Расскажите о своем опыте</h2>
+        <form class="row">
+            <div class="col-12 col-md-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="bem">
+                    <label class="custom-control-label" for="bem">БЭМ/OOCSS</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="less">
+                    <label class="custom-control-label" for="less">Stylus/LESS/SASS</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="svg">
+                    <label class="custom-control-label" for="svg">Работаю с SVG</label>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="semantik">
+                    <label class="custom-control-label" for="semantik">Верстаю семантично</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="ES2015">
+                    <label class="custom-control-label" for="ES2015">ES2015/ES2016</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="gulp">
+                    <label class="custom-control-label" for="gulp">Gulp/GRUNT</label>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="webpack">
+                    <label class="custom-control-label" for="webpack">Webpack</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="jquery">
+                    <label class="custom-control-label" for="jquery">jQuery</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="git">
+                    <label class="custom-control-label" for="git">Ипользую Git</label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="about container">
+        <i class="icon about-icon ml-auto mr-auto mb-4"></i>
+        <h2 class="header font-weight-light text-center">Расскажите о себе</h2>
+        <p class="text col-12 col-md-6 ml-auto mr-auto mb-5 text-center font-weight-light">Напишите несколько предложений, чем привлекла наша вакансия
+            и что вы ожидаете от работы у нас.
+        </p>
+        <form>
+            <div class="form-group ml-auto mr-auto mb-4 col-12 col-md-6">
+                <textarea class="form-control" id="why" rows="6" placeholder="Понравилась тем, что..."></textarea>
+            </div>
+        </form>
+        <button type="submit" class="btn btn-primary d-block ml-auto mr-auto mt-5 mb-5">Готово</button>
+    </div>
+
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="../public/js/main.js"></script>
+</body>
+</html>

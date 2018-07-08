@@ -1,0 +1,19 @@
+{
+  "name": "fra-test",
+  "version": "1.0.0",
+  "description": "testtask",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "gulp": "^4.0.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp-stylus": "^2.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
